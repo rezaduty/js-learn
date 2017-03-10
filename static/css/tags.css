@@ -1,3 +1,6 @@
+.content{
+    float: none !important;
+}
 .tag-box {
     list-style: none;
     margin: 0;
