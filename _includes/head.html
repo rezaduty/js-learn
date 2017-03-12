@@ -15,5 +15,14 @@
     <link rel="stylesheet" type="text/css" href="{{ 'static/css/style.css/' }}" />
     {% for style in page.styles %}<link rel="stylesheet" type="text/css" href="{{ 'static/css/' | append: style | prepend: site.baseurl | prepend: site.url}}" />
     {%endfor%}
+<style type="text/css">
+    body{
+        direction: rtl;
+    }
 
+    pre{
+        direction: ltr;
+    }
+
+</style>
 </head>
